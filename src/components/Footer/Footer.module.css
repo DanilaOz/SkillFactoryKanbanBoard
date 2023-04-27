@@ -1,0 +1,22 @@
+.footer{
+    background-color: #0067A3;
+    color: #fff;
+    min-height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.taskCounter {
+    display: flex;
+    gap: 36px;
+}
+
+@media only screen and (max-width: 690px) {
+    .name {
+        display: none;
+    }
+}

@@ -1,0 +1,47 @@
+.header{
+    background-color: #0067A3;
+    color: #fff;
+    min-height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.projectName {
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.userImg {
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-image: url(../../assets/userImage.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 7px;
+}
+
+.userMenu {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 450px) {
+    .projectName {
+        display: none;
+    }
+
+    .header {
+        justify-content: flex-end;
+    }
+}

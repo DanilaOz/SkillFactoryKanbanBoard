@@ -1,0 +1,30 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formInput {
+    background-color: #fff;
+    width: 258px;
+    margin-top: 15px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    line-height: 21px;
+    font-size: 18px;
+}
+
+.submitBtn {
+    background-color: #0079BF;
+    color: #fff;
+    line-height: 21px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 4px 0px;
+    width: 102px;
+    margin-top: 15px;
+}

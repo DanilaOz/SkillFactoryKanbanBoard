@@ -1,0 +1,28 @@
+.menu {
+    position: absolute;
+    top: 55px;
+    left: calc((100% - 203px));
+    font-size: 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 14px 24px -5px rgba(34, 60, 80, 0.2);
+}
+
+.menuSelect {
+    list-style: none;
+}
+
+.menuSelect__item {
+    font-size: 14px;
+    padding: 8px 126px 8px 8px;
+    cursor: pointer;
+}
+
+.menuSelect__item:hover {
+    background-color: rgba(0, 121, 191, 0.2);
+}
+
+.menuSelect__link {
+    text-decoration: none;
+    color: #000;
+}

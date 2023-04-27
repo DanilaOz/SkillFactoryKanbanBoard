@@ -1,0 +1,49 @@
+.list {
+    width: 282px;
+    height: max-content;
+    background-color: #EBECF0;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.listTitle {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.task {
+    background-color: #fff;
+    width: 258px;
+    margin-top: 15px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.addCardBtn {
+    color: #5E6C84;
+    background-color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer;
+    padding: 4px 0px;
+    width: 102px;
+    margin-top: 15px;
+}
+
+.addCardBtn:hover {
+    color: #fff;
+    background-color: #0079BF;
+}
+
+.addCardBtn:disabled {
+    cursor: default;
+    pointer-events: none;
+}
+
+.taskLink {
+    text-decoration: none;
+    color: #000;
+}

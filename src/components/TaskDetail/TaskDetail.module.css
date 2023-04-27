@@ -1,0 +1,43 @@
+.wrapper {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.titleBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.backToBoard {
+    cursor: pointer;
+    font-size: 23px;
+    text-decoration: none;
+    color: #000;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 35px;
+    width: calc((100% / 1.5));
+}
+
+.editDescriptionBtn {
+    background-color: #0079BF;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 160px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 20px;
+}

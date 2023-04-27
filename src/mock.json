@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Login page - performance issues",
+    "description": "",
+    "status": "backlog"
+  },
+  {
+    "id": 2,
+    "title": "Sprint bugfix",
+    "description": "Sprint bugfix random text bla bla bla",
+    "status": "backlog"
+  },
+  {
+    "id": 3,
+    "title": "Shop page - performance issues",
+    "description": "This task has a description",
+    "status": "ready"
+  },
+  {
+    "id": 4,
+    "title": "Checkout bugfix",
+    "description": "This task has a description",
+    "status": "ready"
+  },
+  {
+    "id": 5,
+    "title": "User page - performance issues",
+    "description": "This task has a description",
+    "status": "inProgress"
+  },
+  {
+    "id": 6,
+    "title": "Main page - performance issues",
+    "description": "This task has a description",
+    "status": "finished"
+  }
+]
