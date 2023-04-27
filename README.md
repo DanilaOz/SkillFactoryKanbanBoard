@@ -1,1 +1,3 @@
 # SkillFactoryKanbanBoard
+
+Проект "Канбан-доска"
