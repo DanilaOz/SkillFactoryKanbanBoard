@@ -17,7 +17,7 @@ const List = (props) => {
     setFormVisible(!isFormVisible);
   };
 
-  const handleAddTaskToReady = () => {
+  const handleMoveTask = () => {
     setSelectVisible(!isSelectVisible);
   }
 
@@ -40,22 +40,19 @@ const List = (props) => {
         <FormAddNewTask addNewTask={addNewTask} setFormVisible={setFormVisible} />
       )}
       {type === LIST_TYPES.READY && !isSelectVisible && (
-        listTasksBacklog.length === 0 ?
-        <AddCardButton disabled={true} onClick={handleAddTaskToReady} /> : <AddCardButton onClick={handleAddTaskToReady} />
+        <AddCardButton disabled={listTasksBacklog.length === 0 ? true : false} onClick={handleMoveTask} />
       )}
       {type === LIST_TYPES.READY && isSelectVisible && (
         <SelectTask type={type} tasks={listTasksBacklog} SelectedTask={SelectedTask} setSelectVisible={setSelectVisible}/>
       )}
       {type === LIST_TYPES.IN_PROGRESS && !isSelectVisible && (
-        listTasksReady.length === 0 ?
-        <AddCardButton disabled={true} onClick={handleAddTaskToReady} /> : <AddCardButton onClick={handleAddTaskToReady} />
+        <AddCardButton disabled={listTasksReady.length === 0 ? true : false} onClick={handleMoveTask} />
       )}
       {type === LIST_TYPES.IN_PROGRESS && isSelectVisible && (
         <SelectTask type={type} tasks={listTasksReady} SelectedTask={SelectedTask} setSelectVisible={setSelectVisible}/>
       )}
       {type === LIST_TYPES.FINISHED && !isSelectVisible && (
-        listTasksInProgress.length === 0 ?
-        <AddCardButton disabled={true} onClick={handleAddTaskToReady} /> : <AddCardButton onClick={handleAddTaskToReady} /> 
+        <AddCardButton disabled={listTasksInProgress.length === 0 ? true : false} onClick={handleMoveTask} />
       )}
       {type === LIST_TYPES.FINISHED && isSelectVisible && (
         <SelectTask type={type} tasks={listTasksInProgress} SelectedTask={SelectedTask} setSelectVisible={setSelectVisible}/>
