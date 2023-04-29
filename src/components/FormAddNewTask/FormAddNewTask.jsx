@@ -7,7 +7,7 @@ const FormAddNewTask = (props) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    if (value) {
+    if (value.trim() !== "") {
       addNewTask(value);
     }
     setFormVisible(false);

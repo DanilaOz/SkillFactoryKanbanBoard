@@ -8,7 +8,7 @@ const FormEditDescription = (props) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    addNewDescription(value);
+    addNewDescription(value.trim());
     setFormVisible(false);
   };
 
